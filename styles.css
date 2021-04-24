@@ -1,13 +1,13 @@
 body {
   background-color: #000;
-  color: #fff;
+  color: rgba(243, 240, 240, 0.8);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1rem;
   padding-top: 50px;
 }
 
 #main {
-  background-color: rgb(130, 130, 194, 0.3);
+  background-color: rgb(130, 130, 194, 0.4);
   border-radius: 20px;
   margin: auto;
   max-width: 80vw;
@@ -21,10 +21,41 @@ body {
 }
 
 #image {
-  max-width: 570px;
+  width: 570px;
 }
 
+#img-caption {
+  font-size: 0.8em;
+  font-style: italic;
+  padding-top: 5px;
+}
+.left-align {
+  display: inline-block;
+  text-align: left;
+  width: 600px;
+}
+q {
+  font-size: 0.9em;
+  font-style: italic;
+}
+h5 {
+  margin-top: 5px;
+  letter-spacing: 0.03em;
+}
 
+a:link {
+  color: rgb(130, 130, 194, 0.9);
+}
+
+a:visited{
+  color: rgb(130, 130, 194, 0.9);
+}
+
+a:hover {
+  color:rgb(175, 175, 179)
+}
+
+/* responsive styles */
 @media (max-width: 600px) {
   #image {
     margin: auto;
