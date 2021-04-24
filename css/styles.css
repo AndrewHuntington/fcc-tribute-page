@@ -20,7 +20,9 @@ h5 {
   letter-spacing: 0.03em;
 }
 li {
+  line-height: 1.4em;
   margin: 0px 0px 10px 0px;
+  max-width: 500px;
 }
 a:link {
   color: rgb(130, 130, 194, 0.9);
@@ -52,13 +54,15 @@ a:hover {
   padding-bottom: 25px;
 }
 #title h1{
+  font-size: 4em;
   letter-spacing: 0.1em;
   margin-top: 0;
+  margin-bottom: 20px;
   padding-top: 20px;
 }
 #subtitle {
   letter-spacing: 0.05em;
-  font-size: 0.9em;
+  font-size: 1.2em;
   margin-top: -10px;
 }
 #image {
@@ -75,6 +79,9 @@ a:hover {
 #read-more {
   padding: 0 2em;
 }
+#attr {
+  font-size: 0.7em;
+}
 
 /* responsive styles */
 @media (max-width: 750px) {
@@ -82,5 +89,11 @@ a:hover {
     margin-left: 0.8em;
     margin-right: 0.8em;
     max-width: 250px;
+  }
+}
+
+@media (max-width: 400px) {
+  .left-align {
+    margin-left: 1px;
   }
 }
