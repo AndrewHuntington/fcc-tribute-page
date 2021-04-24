@@ -1,0 +1,33 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  padding-top: 50px;
+}
+
+#main {
+  background-color: rgb(130, 130, 194, 0.3);
+  border-radius: 20px;
+  margin: auto;
+  max-width: 80vw;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#title {
+  padding-top: 20px;
+  letter-spacing: 0.1em;
+}
+
+#image {
+  max-width: 570px;
+}
+
+
+@media (max-width: 600px) {
+  #image {
+    margin: auto;
+    width: 250px;
+  }
+}
